@@ -1,7 +1,7 @@
 
 import sys,itertools,os,time
 
-os.system("clear") # if linux
+os.system("clear") 
                                                                                                                                  
  
 if len(sys.argv)>=5:
