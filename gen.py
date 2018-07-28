@@ -20,12 +20,12 @@ if len(sys.argv)>=5:
                 sys.stdout.write('\r[+] saving character `%s`' % string)
                 sys.stdout.flush()
 
-        print "\n[+] Wordlist creada : " + sys.argv[4]
+        print ("\n[+] Wordlist creada : " + sys.argv[4])
         print ('\n[-] End time: %s' % time.strftime('%H:%M:%S'))
         file.close()
 
     except KeyboardInterrupt:
-        print "\n[x] Saliendo ..."
+        print ("\n[x] Saliendo ...")
 
 else:
-    print "\nUso : python gen.py min_l max_l string output_file"
+    print ("\nUso : python gen.py min_l max_l string output_file")
